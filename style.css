@@ -1,0 +1,49 @@
+/* Style untuk halaman */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Background hitam */
+    color: #fff; /* Teks putih */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #128C7E;
+}
